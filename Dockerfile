@@ -2,7 +2,7 @@ FROM ttbb/base
 
 WORKDIR /opt
 
-ARG version=2.40.2
+ARG version=2.41.0
 ARG TARGETARCH
 
 RUN wget https://github.com/prometheus/prometheus/releases/download/v$version/prometheus-$version.linux-$TARGETARCH.tar.gz  && \
